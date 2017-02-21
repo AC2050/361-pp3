@@ -27,14 +27,37 @@
         <label>Male<input type="radio" name="gender_field" value="male"></label>
         <label>Female<input type="radio" name="gender_field" value="female"></label>
       </p>
-      <p>Age: 
-      
+      <p>Age:<br>
+        <label>under 18<input type="radio" name="age_field" value="under 18"></label><br>
+        <label>18-24<input type="radio" name="age_field" value="18-24"></label><br>
+        <label>25-34<input type="radio" name="age_field" value="25-34"></label><br>
+        <label>35-44<input type="radio" name="age_field" value="35-44"></label><br>
+        <label>45-54<input type="radio" name="age_field" value="45-54"></label><br>
+        <label>55-64<input type="radio" name="age_field" value="55-64"></label><br>
+        <label>over 65<input type="radio" name="age_field" value="over 65"></label>
       </p>
     </fieldset>
     <fieldset>
       <legend>My Availability</legend>
-    
+       <p>Days Available:
+        <label>Sunday<input type="checkbox" name="available_field" value="Sunday"></label>
+        <label>Monday<input type="checkbox" name="available_field" value="Monday"></label>
+        <label>Tuesday<input type="checkbox" name="available_field" value="Tuesday"></label>
+        <label>Wednesday<input type="checkbox" name="available_field" value="Wenesday"></label>
+        <label>Thursday<input type="checkbox" name="available_field" value="Thursday"></label>
+        <label>Friday<input type="checkbox" name="available_field" value="Friday"></label>
+        <label>Saturday<input type="checkbox" name="available_field" value="Saturday"></label>
+      </p>
+      <p>
+      <label for="commentstext">Any Comments?:</label><br>
+        <textarea cols="30" rows="10" name="comments_field" placeholder="Type your comments"
+          id="commentstext"></textarea>
+      </p>
     </fieldset>
+      <p>
+        <input type="hidden" name="hidden_field" value="acheng2@hawk.iit.edu">
+      </p>
+      <input type="submit" value="Send Me">
     </form>
    </body>
  </html>
